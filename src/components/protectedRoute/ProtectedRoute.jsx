@@ -2,8 +2,7 @@ import React,{useContext, useEffect} from 'react'
 import { useNavigate } from 'react-router'
 import { DataContext } from '../DataProvider/DataProvider'
 
-
-const ProtectedRoute = ({children, msg, redirect}) => {
+function ProtectedRoute ({children, msg, redirect}) {
 
     const navigate =useNavigate()
     const { state, dispatch } = useContext(DataContext)
