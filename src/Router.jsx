@@ -24,7 +24,7 @@ function Routing() {
         <Route
           path="/Payments"
           element={
-            <ProtectedRoute
+           <ProtectedRoute
               msg={"You must login to pay"}
               redirect={"/Payments"}
             >
