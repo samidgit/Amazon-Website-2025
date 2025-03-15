@@ -3,7 +3,7 @@ import { CategoryInfos } from "./CategoryFullInfo";
 import CategoryCard from "./CategoryCard";
 import styles from "./category.module.css";
 function Category() {
-  console.log(CategoryInfos);
+  // console.log(CategoryInfos);
   return (
     <section className={styles.category_container}>
       {CategoryInfos.map((info, index) => {
